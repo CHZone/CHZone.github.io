@@ -4,7 +4,7 @@
 
 # Site
 title: Lukas' Blog
-subtitle: 撸而不思罔，思而不撸则殆！
+subtitle: 撸而不思则罔，思而不撸则殆！
 description: 撸累了，我想静一静！
 keywords: program java  algorithm
 author: 撸卡思
@@ -81,3 +81,10 @@ deploy:
   type: git
   repo: git@github.com:CHZone/chzone.github.io.git
   branch: master
+
+# search service 微搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
