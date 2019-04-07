@@ -4,11 +4,11 @@
 
 # Site
 title: Lukas' Blog
-subtitle: 撸而不思则罔，思而不撸则殆！--撸训
-description: 撸而不思则罔，思而不撸则殆！--撸训
+subtitle: 撸而不思则罔，思而不撸则殆！
+description: 撸而不思则罔，思而不撸则殆！
 keywords: program java  algorithm
 author: 撸卡思
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -88,3 +88,9 @@ search:
   field: post
   format: html
   limit: 10000
+
+algolia:
+  applicationID: 'GYCP25RQM0'
+  apiKey: 'c142e8b8ddacc31782785228ba5b6cdf'
+  indexName: 'Git_IO_Search'
+  chunkSize: 5000
